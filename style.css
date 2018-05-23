@@ -1,0 +1,141 @@
+body
+{
+	width: 100%;
+	min-height: 800px;
+	background-color: #123456;
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color: #fff;
+}
+
+#container
+{
+width: 1000px;
+min-height: 800px;
+align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+header
+{
+	padding-bottom: 5px;
+}
+
+#logo
+{
+	width:800px;
+	height: 150px;
+	align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: 5px dashed white;
+}
+
+#logo > h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	padding: 4px;
+	font-family: 'Audiowide', cursive;
+}
+
+#logo > h3
+{
+	text-align: center;
+    margin-top: 5px; 
+	font-family: 'VT323', monospace;
+	letter-spacing: 2px;
+}
+
+#navbar
+{
+height: 60px;
+width: 800px;
+align: center;
+margin-left: auto;
+margin-right: auto;	
+margin-top: 20px;
+border-left: 5px dashed white;
+border-right: 5px dashed white;
+}
+
+.navbutton
+{
+	height: 50px;
+	width: 200px;
+    margin-left:25px;
+	margin-right: 25px;
+	float: left;
+	border: 5px dashed white;
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+	font-family:  'Audiowide', cursive;
+	padding-left: 6px;
+}
+
+#content
+{
+	width: 800px;
+	min-height: 80px;
+	border: 5px dashed white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	clear: both;
+}
+
+article
+{  
+    align: center; 
+	text-align: justify;
+	padding: 15px;
+}
+
+#contactbar
+{
+height: 90px;
+width: 800px;
+align: center;
+margin-left: auto;
+margin-right: auto;	
+margin-top: 26px;
+border-left: 5px dashed white;
+border-right: 5px dashed white;
+}
+
+.contactbutton
+{
+	height: 80px;
+	width: 200px;
+    margin-left:25px;
+	margin-right: 25px;
+	float: left;
+	border: 5px dashed white;
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	text-decoration: none;
+	padding-left: 6px;
+}
+
+#bottom
+{
+	width: 800px;
+	text-align: center;
+	font-size: 15px;
+	border: 5px dashed white;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 25px;
+	clear: both;
+	padding: 3px;
+}
+
