@@ -5,16 +5,15 @@ body
 	background-color: #123456;
 	margin: 0px;
 	padding: 0px;
-    font-family: 'Roboto', sans-serif;
 	font-size:20px;
 	color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 
 #container
 {
 width: 1000px;
 min-height: 800px;
-align: center;
 margin-left: auto;
 margin-right: auto;
 }
@@ -28,7 +27,6 @@ header
 {
 	width:800px;
 	height: 150px;
-	align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
@@ -57,7 +55,6 @@ header
 {
 height: 60px;
 width: 800px;
-align: center;
 margin-left: auto;
 margin-right: auto;	
 margin-top: 20px;
@@ -80,6 +77,18 @@ border-right: 5px dashed white;
 	font-family:  'Audiowide', cursive;
 	padding-left: 6px;
 }
+.navbutton:hover
+{
+	background-color: #234567;
+	border: 5px dashed #516823;
+}
+
+.navbutton:active
+{
+	background-color: #234567;
+	border: 5px dashed #516823;
+	
+}
 
 #content
 {
@@ -92,18 +101,19 @@ border-right: 5px dashed white;
 	clear: both;
 }
 
+
+
 article
 {  
-    align: center; 
 	text-align: justify;
-	padding: 15px;
+	padding: 30px;
+	font-family: 'VT323', monospace;
 }
 
 #contactbar
 {
 height: 90px;
 width: 800px;
-align: center;
 margin-left: auto;
 margin-right: auto;	
 margin-top: 26px;
@@ -125,10 +135,20 @@ border-right: 5px dashed white;
 	text-decoration: none;
 	padding-left: 6px;
 }
+.contactbutton:hover
+{
+	
+}
+
+.contactbutton:active
+{
+	
+}
 
 #bottom
 {
 	width: 800px;
+	height: 50px;
 	text-align: center;
 	font-size: 15px;
 	border: 5px dashed white;
@@ -136,6 +156,9 @@ border-right: 5px dashed white;
 	margin-right: auto;
 	margin-top: 25px;
 	clear: both;
-	padding: 3px;
+}
+#alr
+{
+	padding-top: 15px;
 }
 
